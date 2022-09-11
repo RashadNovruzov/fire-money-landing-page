@@ -1,0 +1,155 @@
+.footer{
+    padding-top: 50px;
+    background-image: url("../images/footer-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    &__menu{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-bottom: 38px;
+        border-bottom: 1px solid rgba($color: #fff, $alpha: 0.3);
+    }
+    &__creditors{
+        padding-top:30px;
+        margin-bottom: 30px;
+    }
+    &__creditors-title{
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 21px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        padding-bottom: 23px;
+    }
+    &__creditors-text{
+        font-size: 13px;
+        line-height: 15px;
+        color: #FFFFFF;
+        margin-bottom: 12px;
+    }
+    &__mail{
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 15px;
+        color: #FFFFFF;
+        position: relative;
+        &:before{
+            content: "";
+            position: absolute;
+            top: 0;
+            left: -25px;
+            width: 22px;
+            height: 15px;
+            background-image: url("../images/mail.svg");
+        }
+    }
+    &__cards-title{
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 21px;
+        color: #FFFFFF;
+        max-width: 118px;
+    }
+    &__cards-button{
+        text-align: center;
+        width: 100%;
+        font-size: 18px;
+        color: #FFF;
+        border: 1px solid #fff;
+        padding: 32px 40px;
+    }
+    &__cards{
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 27px;
+        margin-bottom: 30px;
+    }
+    &__cards-items{
+        border-top: 1px solid rgba($color: #fff, $alpha: 0.4);
+        border-bottom: 1px solid rgba($color: #fff, $alpha: 0.4);
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-right: 59px;
+        display: flex;
+        flex: 0 0 50%;
+        align-items: center;
+    }
+    &__terms{
+        padding-top: 27px;
+        padding-bottom: 24px;
+        border-bottom: 1px solid rgba($color: #FFF, $alpha: 0.4);
+    }
+    &__terms-title{
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 21px;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        margin-bottom: 23px;
+    }
+    &__terms-text{
+        font-size: 13px;
+        line-height: 15px;
+        color: #FFFFFF;
+        margin-bottom: 15px;
+    }
+    &__cards-images{
+        margin-left: 40px;
+        display: flex;
+        justify-content: space-around;
+        flex: 0 0 50%;
+    }
+    &__phone{
+        font-weight: 700;
+        font-size: 22px;
+        line-height: 26px;
+        color: #FFFFFF;
+        position: relative;
+        &:before{
+            content: "";
+            position: absolute;
+            top: 0;
+            left: -25px;
+            width: 19px;
+            height: 19px;
+            background-image: url("../images/phone.svg");
+        }
+    }
+
+    &__rights{
+        padding-top: 30px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-bottom: 40px;
+    }
+    &__rights-text{
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 21px;
+        color: #FFFFFF;
+    }
+    &__rights-info{
+        display: flex;
+        align-items: center;
+        gap: 28px;
+    }
+    &__rights-buttons{
+        display: flex;
+        align-items: center;
+        gap: 36px;
+    }
+
+    &__rights-subscribe{
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        text-transform: uppercase;
+        color: #FEFEFE;
+        border: 1px solid #FEFEFE;
+        border-radius: 8px;
+        padding: 14px 28px 12px 32px;
+    }
+}

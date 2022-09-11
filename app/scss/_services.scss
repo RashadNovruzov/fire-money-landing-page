@@ -1,0 +1,33 @@
+.services{
+    padding-top: 56px;
+    padding-bottom: 70px;
+    &__title{
+        margin-bottom: 45px;
+    }
+    &__items{
+        display: flex;
+        gap: 30px;
+        justify-content: space-between;
+    }
+    &__item{
+        padding: 44px 45px 44px 48px;
+        background: rgba(255, 255, 255, 0.95);
+        border: 1px solid #F8EBEB;
+        box-shadow: 0px 4px 44px rgba(84, 104, 123, 0.05);
+        backdrop-filter: blur(12px);
+        border-radius: 22px;
+    }
+    &__item-title{
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 28px;
+        color: #45515F;
+        margin-bottom: 31px;
+    }&__item-text{
+        line-height: 19px;
+        margin-bottom: 32px;
+        &:last-child{
+            margin: 0;
+        }
+    }
+}

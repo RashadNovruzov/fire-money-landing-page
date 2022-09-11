@@ -1,0 +1,31 @@
+.rating-result {
+	width: 265px;
+	margin: 0 auto;
+}
+.rating-result span {
+	padding: 0;
+	font-size: 32px;
+	margin: 0 12px;
+	line-height: 1;
+	color: lightgrey;
+	text-shadow: 1px 1px #bbb;
+    position: relative;
+    &::after{
+        content: "";
+        position: absolute;
+        
+        width: 18px;
+        height: 18px;
+        background-image: url("../images/negativ-star.svg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+}
+
+.rating-result > span.active {
+    &::after{
+
+        background-image: url("../images/star.svg");
+    }
+}

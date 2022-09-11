@@ -11,7 +11,6 @@ body{
 }
 
 .wrapper {
-	max-width: 1920px;
 	margin: 0 auto;
 	display: flex;
 	flex-direction: column;
@@ -30,7 +29,33 @@ body{
 }
 
 
+img{
+	pointer-events: none;
+}
 
 
 
 
+.submit__button{
+	cursor: pointer;
+	border: none;
+	outline: none;
+	padding: 21px 44px;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 21px;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	text-shadow: 0px 4px 12px rgba(0, 0, 0, 0.12);
+	background: linear-gradient(81.55deg, #FFC83E 33.93%, #FF7347 73.78%);
+	border-radius: 8px;
+	display: inline-block;
+}
+
+.block-title{
+	font-weight: 600;
+	font-size: 38px;
+	line-height: 45px;
+	color: #45515F;
+	text-align: center;
+}

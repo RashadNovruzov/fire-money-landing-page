@@ -1,0 +1,83 @@
+.reviews{
+    padding-top: 65px;
+    background-color: #F6F9FC;
+    padding-bottom: 38px;
+    &__items{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 28px;
+        margin-bottom: 35px;
+    }
+    &__item{
+        background: rgba(255, 255, 255, 0.95);
+        box-shadow: 0px 4px 44px rgba(84, 104, 123, 0.05);
+        backdrop-filter: blur(12px);
+        border-radius: 22px;
+        padding: 51px 47px 47px 47px;
+    }
+    &__rating{
+        display: inline-block;
+        span:first-child{
+            margin-left: 0;
+        }
+    }
+    &__title{
+        text-align: center;
+        margin-bottom: 43px;
+    }
+    &__user{
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 21px;
+        color: #45515F;
+        margin-bottom: 19px;
+    }
+    &__location{
+        position: relative;
+        left: 18px;
+        &::before{
+            content: "";
+            position: absolute;
+            background-image: url("../images/location.svg");
+            width: 12px;
+            height: 16px;
+            top: 0;
+            left: -18px;
+        }
+
+    }
+    &__location,
+    &__text{
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 18px;
+        color: #93A0AB;
+        margin-bottom: 17px;
+    }
+    &__text{
+        margin-bottom: 27px;
+    }
+    &__img{
+        margin-bottom: 26px;
+    }
+
+    &__buttons{
+        display: flex;
+        justify-content: center;
+    }
+    
+    &__button{
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        text-transform: uppercase;
+        color: #45515F;
+        border: 1px solid #C9D2DD;
+        border-radius: 8px;
+        padding: 21px 31px;
+        margin-left: 10px;
+    }
+
+    
+    
+}
